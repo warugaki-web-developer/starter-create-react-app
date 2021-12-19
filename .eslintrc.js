@@ -10,6 +10,7 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     'plugin:import/recommended',
+    'prettier',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -18,10 +19,7 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    'unused-imports',
-  ],
+  plugins: ['react', 'unused-imports'],
   rules: {
     'react/react-in-jsx-scope': 'off',
     'react/function-component-definition': [
@@ -35,7 +33,10 @@ module.exports = {
     'unused-imports/no-unused-vars': [
       'warn',
       {
-        vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_',
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
       },
     ],
   },
