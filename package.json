@@ -17,7 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:eslint": "eslint --ignore-path .gitignore . --ext .js,.jsx",
-    "fix:eslint": "eslint --fix --ignore-path .gitignore . --ext .js,.jsx"
+    "fix:eslint": "eslint --fix --ignore-path .gitignore . --ext .js,.jsx",
+    "lint:stylelint": "stylelint ./src/**/*.{css,jsx}",
+    "fix:stylelint": "stylelint --fix ./src/**/*.{css,jsx}"
   },
   "browserslist": {
     "production": [
@@ -32,12 +34,17 @@
     ]
   },
   "devDependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.2",
     "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "eslint-plugin-unused-imports": "^2.0.0"
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^14.1.0",
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^24.0.0"
   }
 }
