@@ -44,6 +44,7 @@ module.exports = {
     {
       files: ['**/*.stories.*'],
       rules: {
+        'import/no-anonymous-default-export': 'off',
         'react/jsx-props-no-spreading': 'off',
       },
     },
