@@ -2,10 +2,10 @@
 
 ## 開発モードでアプリを実行
 
-開発モードでアプリを実行します。
-http://localhost:3000](http://localhost:3000) を開くと、ブラウザで表示されます。
+開発モードでアプリを実行します。  
+[http://localhost:3000](http://localhost:3000) を開くと、ブラウザで表示されます。
 
-変更するとページが再読み込みされます。
+変更するとページが再読み込みされます。  
 また、コンソールに lint エラーが表示される場合があります。
 
 ```bash
@@ -14,7 +14,7 @@ npm start
 
 ## テストランナーを対話型ウォッチモードで起動
 
-テストランナーを対話型ウォッチモードで起動します。
+テストランナーを対話型ウォッチモードで起動します。  
 詳しくは、[テストの実行](https://facebook.github.io/create-react-app/docs/running-tests)の項を参照してください。
 
 ```bash
@@ -82,5 +82,3 @@ React を学ぶには、[React documentation](https://reactjs.org/)を参照し�
 ### `npm run build` がミニファイに失敗する
 
 このセクションはこちらに移動しました。[https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-www.DeepL.com/Translator（無料版）で翻訳しました。
