@@ -8,5 +8,6 @@
     "source.fixAll.stylelint": true
   },
   "css.validate": false,
-  "stylelint.validate": ["css", "javascriptreact", "typescriptreact"]
+  "scss.validate": false,
+  "stylelint.validate": ["css", "postcss", "javascriptreact", "typescriptreact"]
 }
